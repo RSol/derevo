@@ -1,0 +1,17 @@
+.two-columns {
+  .leaflet-container {
+    height: 900px;
+  }
+
+  .circle-marker {
+    //background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+  }
+
+  .circle-marker:after {
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+}
